@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, hwb(196 2% 26%), hwb(154 0% 46%));
+    color: lch(21.91% 23.45 266.18);
+    text-align: center;
+}
+
+h1 {
+    color: 3lch(29.14% 31.27 271.28);
+}
+
+.subtitulo {
+    color: lab(1.39% 6.05 -6.61);
+    font-size: 18px;
+}
+
+.tarjeta {
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: lab(31.05% 62.15 -62.21 / 0.868);
+    border-radius: 15px;
+}
+
+h2 {
+    color: hsl(156, 64%, 55%);
+    text-align: left;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+img {
+    width: 80%;
+    max-width: 500px;
+    border-radius: 12px;
+    margin: 16px;
+}
+
+a {
+    color: rgb(15, 76, 90);
+    font-weight: bold;
+    text-decoration: none;
+}
+h3 {
+    color: hsl(156, 64%, 55%);
+    text-align: left;
+}
+
+button {
+    background-color: #34041c;
+    color: rgb(249, 243, 243);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: oklch(38.915% 0.1618 291.44);
+}
+
+footer {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: hsl(209, 80%, 14%);
+}
+
+
+
